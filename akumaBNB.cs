@@ -100,33 +100,72 @@ namespace akumaBNB
 
                     new Move
                     {
-                        Name = "Mixup VS Cammy down MP - S.MK (Onblock) (Cammy does D.MP) - (She will now get hit if she presses a button) Do D.HP for (CC), DASH, B.HP, QCF HK XX P (This mixup does not work if you are cornered)",
+                        Name = "(Corner Pessure) (Pressure Anywhere) S.LK, S.LK, S.MK, C.HP for (CC), DASH B.HP, HCF HK XX P / HCB HP buffer CA and execute on first hit of fireball / CA ",
+                    },
+
+                    new Move
+                    {
+                        Name = "Mixup VS Cammy's crouch MP - S.MK (Onblock) (Cammy does D.MP) - (She will now get hit if she presses a button) Do C.HP for (CC), DASH, B.HP, QCF HK XX P (This mixup does not work if you are cornered)",
                     },
 
                     new Move
                     {
 
-                        Name = "Mixup VS Cammy down MP - S.MK (Onblock) (Cammy does D.MP) - (She will now get hit if she presses a button) Do D.HP for (CC), DASH, B.HP, QCB HP, buffer CA and execute on first hit of fireball (This mixup does not work if you are cornered)",
+                        Name = "Mixup VS Cammy's crouch MP - S.MK (Onblock) (Cammy does D.MP) - (She will now get hit if she presses a button) Do C.HP for (CC), DASH, B.HP, QCB HP, buffer CA and execute on first hit of fireball (This mixup does not work if you are cornered)",
                     },
 
                     new Move
                     {
-                        Name = "Mixup VS Cammy down MP - S.MK (Onblock) (Cammy does D.MP) - (She will now get hit if she presses a button) Do D.HP for (CC), DASH, QCB LK, FDF HP, HP+HK (V-Trigger), QCF HK, QCF LP, Jump forward (as fireballs hit you will be on the other side) S.MK, Down HP, DASH, B.HP, QCF HK XX P",
+                        Name = "Mixup VS Cammy's crouch MP - S.MK (Onblock) (Cammy does D.MP) - (She will now get hit if she presses a button) Do C.HP for (CC), DASH, QCB LK, FDF HP, HP+HK (V-Trigger), QCF HK, QCF LP, Jump forward (as fireballs hit you will be on the other side) S.MK, Down HP, DASH, B.HP, QCF HK XX P",
                     },
 
                     new Move
                     {
-                        Name = "Mixup VS Cammy down MP - S.MK (Onblock) (Cammy does D.MP) - (She will now get hit if she presses a button) Do D.HP for (CC), DASH, QCB LK, FDF HP, HP+HK (V-Trigger), QCF HK, QCF LP, Jump forward (as fireballs hit you will be on the other side) S.MK, Down HP, DASH, B.HP, QCB HP, buffer CA and execute on first hit of fireball",
+                        Name = "Mixup VS Cammy's crouch MP - S.MK (Onblock) (Cammy does D.MP) - (She will now get hit if she presses a button) Do C.HP for (CC), DASH, QCB LK, FDF HP, HP+HK (V-Trigger), QCF HK, QCF LP, Jump forward (as fireballs hit you will be on the other side) S.MK, Down HP, DASH, B.HP, QCB HP, buffer CA and execute on first hit of fireball",
 
                     },
 
+                    new Move
+                    {
+                        Name = "Mixup VS Urien's crouch MP - C.LP, C.MP, S.MK, QCB LK, HCB HK / FDF HP"
+                    },
+
+                    new Move
+                    {
+                        Name = "Mixup VS Urien's crouch MP (Raging Demon) - C.LP, C.MP, S.MK, QCB LK, C.MP, HP+HK (V-Trigger), LP, LP, F LK, HP",
+                    },
+
+                    new Move
+                    {
+                        Name = "Mixup VS Urien's crouch MP - S.MP, S.LP, HCB MK",
+                    },
+
+                    new Move
+                    {
+                        Name = "Mixup VS Urien's crouch MP - HCF LK XX P, C.LP, C.MP, HCF HP",
+                    },
+
+                    new Move
+                    {
+                        Name = "Mixup VS Urien's crouch MP - Jump forward HP, C.HP (CC), B.HP, CA (Corner) (Anywhere)",
+                    },
+
+                    new Move
+                    {
+                        Name = "Mixup VS Urien's crouch MP - Jump forward HP, C.HP (CC), B.HP, QCB HP, buffer ca and execute on first hit",
+                    },
+
+                    new Move
+                    {
+                        Name = "Mixup VS Urien's crouch MP (Raging Demon) - (Close) S.MK, QCF HP, HP + HK (V-Trigger) LP, LP, F LK, HP",
+                    }
                 }
             };
 
-            /*var ken = new Character
+            var blanka = new Character
             {
                 //Property
-                Name = "Ken",
+                Name = "blanka",
 
                 //List
                 MoveList = new List<Move>
@@ -146,7 +185,7 @@ namespace akumaBNB
 
             };
 
-
+            /*
             var ryu = new Character
             {
                 //Property
@@ -173,8 +212,8 @@ namespace akumaBNB
 
             //Add Characters to our List
             characterList.Add(akuma);
-            /*characterList.Add(ken);
-            characterList.Add(ryu);*/
+            characterList.Add(blanka);
+            //characterList.Add(ryu);
 
             foreach (var character in characterList)
             {
