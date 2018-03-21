@@ -26,6 +26,14 @@ namespace akumaBNB
     {
         static void Main(string[] args)
         {
+
+            // Set app vars
+            string appName = "Street Fighter V Combo / Mixup guide";
+            string appVersion = "1.0.0";
+            string appAuthor = "Francis Harris & Brenton Bates";
+
+            Console.WriteLine("{0}: Version {1} by {2}", appName, appVersion, appAuthor);
+
             //Create Empty Character List
             List<Character> characterList = new List<Character>();
 
@@ -74,6 +82,44 @@ namespace akumaBNB
                     {
                         Name = "Punish Combo 7 (FAR)(CC) C.HP, DASH, B+HP XX HCB HP XX CA",
                     },
+
+                    new Move
+                    {
+                        Name = "Mixup with V-Trigger (Raging Demon) - C.MP,S.MK,QCB LK, Crouch MP, HP+HK (V-Trigger), LP,LP,F LK, HP",
+                    },
+
+                    new Move
+                    {
+                        Name = "Mixup with V-Trigger (Raging demon) - On knock down and in V-Trigger do QCF LK (Opponent blocks) LP,LP,F LK, HP",
+                    },
+
+                    new Move
+                    {
+                        Name = "S.MP / C.MP, S.MK, QCB LK, D.MP (for flip out) LP, LP, F LK, HP",
+                    },
+
+                    new Move
+                    {
+                        Name = "Mixup VS Cammy down MP - S.MK (Onblock) (Cammy does D.MP) - (She will now get hit if she presses a button) Do D.HP for (CC), DASH, B.HP, QCF HK XX P (This mixup does not work if you are cornered)",
+                    },
+
+                    new Move
+                    {
+
+                        Name = "Mixup VS Cammy down MP - S.MK (Onblock) (Cammy does D.MP) - (She will now get hit if she presses a button) Do D.HP for (CC), DASH, B.HP, QCB HP, buffer CA and execute on first hit of fireball (This mixup does not work if you are cornered)",
+                    },
+
+                    new Move
+                    {
+                        Name = "Mixup VS Cammy down MP - S.MK (Onblock) (Cammy does D.MP) - (She will now get hit if she presses a button) Do D.HP for (CC), DASH, QCB LK, FDF HP, HP+HK (V-Trigger), QCF HK, QCF LP, Jump forward (as fireballs hit you will be on the other side) S.MK, Down HP, DASH, B.HP, QCF HK XX P",
+                    },
+
+                    new Move
+                    {
+                        Name = "Mixup VS Cammy down MP - S.MK (Onblock) (Cammy does D.MP) - (She will now get hit if she presses a button) Do D.HP for (CC), DASH, QCB LK, FDF HP, HP+HK (V-Trigger), QCF HK, QCF LP, Jump forward (as fireballs hit you will be on the other side) S.MK, Down HP, DASH, B.HP, QCB HP, buffer CA and execute on first hit of fireball",
+
+                    },
+
                 }
             };
 
@@ -125,7 +171,6 @@ namespace akumaBNB
             };
             */
 
-
             //Add Characters to our List
             characterList.Add(akuma);
             /*characterList.Add(ken);
@@ -152,6 +197,9 @@ namespace akumaBNB
 
             //Keeps Console Open
             Console.ReadLine();
+
+            
+
 
         }
     }
