@@ -172,15 +172,70 @@ namespace akumaBNB
                 {
                    new Move
                    {
-                       Name = "Dragon Punch",
-                       //Frame = 16
+                       Name = "Hit Confirm 1 - C.LK, C.LP XX D-U MK * (* = Can be canceled into critical art)",
+                       //Combos with D-U can also be ended with b+f P
                    },
 
                     new Move
                    {
-                       Name = "Tatsu",
+                       Name = "Hit Confirm 2 - C.LP, C.LP XX B-F HP * ",
                        //Frame = 18
-                   }
+                   },
+
+                    new Move
+                    {
+                        Name = "Hit Confirm 3 - C.LP, S.LK, C.LP XX B-F HP * ",
+                    },
+
+                    new Move
+                    {
+                        Name = "Hit Confirm 4 - S.LK, S.LK, C.LP XX B-F HP * ",
+                    },
+
+                    new Move
+                    {
+                        Name = "Hit Confirm 5 - S.MK-HK-HP",
+                    },
+
+                    new Move
+                    {
+                        Name = "Hit Confirm 6 - C.MK, C.LP, XX D-U MK * ",
+                    },
+
+                    new Move
+                    {
+                        Name = "Hit Confirm 7 - S.HP, XX VS+P, D-U MK * ",
+                    },
+
+                    new Move
+                    {
+                        Name = "Hit Confirm 8 - S.HP XX VS+P, DF.HP ",
+                    },
+
+                    new Move
+                    {
+                        Name = "Hit Confirm 9 - C.HP XX CA ",
+                    },
+
+                    new Move
+                    {
+                        Name = "Jump in 1 - J.HK, S.HP XX VS+P D-U MK ",
+                    },
+
+                    new Move
+                    {
+                        Name = "Jump in 2 - J.HK, S.HP, XX VS+P [DELAY] D-U LK, XX CA ",
+                    },
+
+                    new Move
+                    {
+                        Name = "Jump in 3 - J.MK, C.MK, C.LP XX D-U MK * ",
+                    },
+
+                    new Move
+                    {
+                        Name = "Counter Hit - To be continued... ",
+                    },
                 }
 
             };
